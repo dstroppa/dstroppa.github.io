@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://dstroppa.github.io/atom.xml" rel="self"/>
   <link href="http://dstroppa.github.io/"/>
-  <updated>2013-12-17T22:52:56+00:00</updated>
+  <updated>2014-01-13T21:24:09+00:00</updated>
   <id>http://dstroppa.github.io/</id>
   <author>
     <name><![CDATA[Daniele Stroppa]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[First post]]></title>
+    <link href="http://dstroppa.github.io/blog/2014/01/13/first-post/"/>
+    <updated>2014-01-13T21:21:12+00:00</updated>
+    <id>http://dstroppa.github.io/blog/2014/01/13/first-post</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
