@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://dstroppa.github.io/atom.xml" rel="self"/>
   <link href="http://dstroppa.github.io/"/>
-  <updated>2014-01-13T21:24:09+00:00</updated>
+  <updated>2014-01-13T21:34:51+00:00</updated>
   <id>http://dstroppa.github.io/</id>
   <author>
     <name><![CDATA[Daniele Stroppa]]></name>
@@ -18,7 +18,45 @@
     <link href="http://dstroppa.github.io/blog/2014/01/13/first-post/"/>
     <updated>2014-01-13T21:21:12+00:00</updated>
     <id>http://dstroppa.github.io/blog/2014/01/13/first-post</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>Testing plugins</p>
+
+<h3>block quote</h3>
+
+<blockquote><p>Last night I lay in bed looking up at the stars in the sky and I thought to myself, where the heck is the ceiling.</p></blockquote>
+
+
+<h3>Codeblock</h3>
+
+<figure class='code'><figcaption><span>Coffeescript Tricks start:51 mark:51,54-55 </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='coffeescript'><span class='line'><span class="c1"># Given an alphabet:</span>
+</span><span class='line'><span class="nv">alphabet = </span><span class="s">&#39;abcdefghijklmnopqrstuvwxyz&#39;</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1"># Iterate over part of the alphabet:</span>
+</span><span class='line'><span class="nx">console</span><span class="p">.</span><span class="nx">log</span> <span class="nx">letter</span> <span class="k">for</span> <span class="nx">letter</span> <span class="k">in</span> <span class="nx">alphabet</span><span class="p">[</span><span class="mi">4</span><span class="p">..</span><span class="mi">8</span><span class="p">]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>Gist</h3>
+
+<div><script src='https://gist.github.com/4321346.js'></script>
+<noscript><pre><code>@@ -590,7 +590,7 @@ class SpritesTest &lt; Test::Unit::TestCase
+  it &quot;should generate a sprite from nested folders&quot; do
+    css = render &lt;&lt;-SCSS
+-     @import &quot;nested/*.png&quot;;
++     @import &quot;nested/**/*.png&quot;;
+      @include all-nested-sprites;
+    SCSS
+    assert_correct css, &lt;&lt;-CSS</code></pre></noscript></div>
+
+
+<h3>Image</h3>
+
+<p><img src="http://placekitten.com/890/280"></p>
 ]]></content>
   </entry>
   
